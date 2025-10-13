@@ -82,8 +82,10 @@ body{
 
 /* layanan style */
 #our-service{
-    height:100vh;
+    padding: 100px 0;
 }
+
+
 .container-img{
     display: flex;
     justify-content: center;
@@ -91,17 +93,69 @@ body{
     height: 70px;
     width: 70px;
     border-radius: 50%;
-   background-color: #fff;
+   background-color:var(--pr-hijau);
 
 }
 .card-layanan{
 height: 313px;
 padding: 40px;
-background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
+background-color: #fff;
 border-radius: 5px;
 color: #fff;
 
 
+
 }
 
+.card-layanan:hover{
+height: 313px;
+padding: 40px;
+background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
+border-radius: 5px;
+
+
+
+}
+
+
+.card-layanan h4{
+ font-size: 24px;
+ font-weight: 500;
+ color:var(--pr-hijau);
+
+}
+
+.card-layanan p{
+    color: #000;
+}
+
+
+.card-layana:hover{
+weight: 313px;
+padding: 40px;
+background: linear-gradient(160deg, var(--pr-hijau), #000000e4);
+border-radius: 5px;
+
+
+}
+
+
+.card-layanan:hover h4{
+ font-size: 24px;
+ font-weight: 500;
+ color: #fff;
+}
+
+.card-layanan:hover p{
+  color: #fff;
+}
+
+.card-layanan:hover .container-img{
+    background-color: #fff;
+
+}
+
+.kaa{
+    color: var(--pr-hijau);
+}
 
