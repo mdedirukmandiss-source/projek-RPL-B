@@ -156,7 +156,7 @@ p{
 font-size: 38px;
 font-weight: 700;
 color: #fff;
-margin-top: 140px;
+/*margin-top: 140px;*/
 
 }
 
@@ -191,7 +191,7 @@ color: #fff;
 
     height: 42px;
     color:var(--pr-hijau);
-    background-color:#fff;
+    background-color:rgba(255, 255, 255, 0.8);
     border: none;
     padding: 10px 20px 10px 20px;
     font-size: 18ox;
@@ -199,6 +199,57 @@ color: #fff;
 
     transition: all 0.3s ease-in;
 } 
+
+.input-group{
+
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 0 10px;
+
+}
+
+.btn-cari{
+
+    width: 135px;
+    height: 100%;
+    border: none;
+    background-color: var(--pr-hijau);
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-search{
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    color: var(--pr-hijau);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    border-right:solid 2px #fff ;
+}
+
+.nav-tabs{
+
+    border: none;
+}
+
+.form-control{
+    border: none;
+    background-color: transparent;
+
+}
+.form-control::placeholder{
+
+color: var(--pr-hijau)
+}
+
+.form-control:focus{
+    box-shadow: 1px 1px 5px 1px var(--pr-hijau);
+    color: var(--pr-hijau);
+
+}
 
 
 
