@@ -1,0 +1,24 @@
+.navbar-nav{
+margin-left: 500px;
+padding: 20px;
+}
+.btn{
+    border-radius: 50px;
+    background-color: blue;
+    border: blue; 
+}
+.tulisan{
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 65px;
+}
+span{
+    color: blue;
+}
+.tulisan1{
+    font-size: 20px;
+}
+.nav-link active{
+    color :blue;
+    
+}
